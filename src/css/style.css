@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+body {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+.card__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.01563rem;
+}
+
+.card__text,
+.card__author-date {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0.001rem;
+}
+
+.card__author-name {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.001rem;
+}
+
+/*# sourceMappingURL=style.css.map */
