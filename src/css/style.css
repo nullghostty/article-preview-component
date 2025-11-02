@@ -27,4 +27,25 @@ body {
   letter-spacing: 0.001rem;
 }
 
+body {
+  background: hsl(210, 46%, 95%);
+}
+
+.card {
+  background: hsl(0, 100%, 100%);
+}
+
+.card__title,
+.card__author-name {
+  color: hsl(217, 19%, 35%);
+}
+
+.card__text {
+  color: hsl(214, 17%, 51%);
+}
+
+.card__author-date {
+  color: hsl(212, 23%, 69%);
+}
+
 /*# sourceMappingURL=style.css.map */
