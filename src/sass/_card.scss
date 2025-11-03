@@ -1,0 +1,36 @@
+$br: 0.625rem;
+
+.card {
+  border-radius: $br;
+  width: 20.4375rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 40px 40px -10px rgba(201, 213, 225, 0.50);
+
+  .card__image {
+    border-radius: $br $br 0 0;
+  }
+
+  .card__author-avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 38rem;
+    flex-direction: row;
+
+    .card__image {
+      border-radius: $br 0 0 $br;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    width: 45.625rem;
+  }
+}

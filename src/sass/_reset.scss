@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  overflow: hidden;
+  object-fit: cover;
+}

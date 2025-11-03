@@ -1,4 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
 body {
   font-family: "Manrope", sans-serif;
   font-style: normal;
@@ -46,6 +70,37 @@ body {
 
 .card__author-date {
   color: hsl(212, 23%, 69%);
+}
+
+.card {
+  border-radius: 0.625rem;
+  width: 20.4375rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 40px 40px -10px rgba(201, 213, 225, 0.5);
+}
+.card .card__image {
+  border-radius: 0.625rem 0.625rem 0 0;
+}
+.card .card__author-avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 38rem;
+    flex-direction: row;
+  }
+  .card .card__image {
+    border-radius: 0.625rem 0 0 0.625rem;
+  }
+}
+@media (min-width: 1024px) {
+  .card {
+    width: 45.625rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
